@@ -31,7 +31,7 @@ export default function Layout({ children }: LayoutProps) {
   }, [])
 
   const navItems = [
-    { path: '/', icon: Home, label: '欧易' },
+    { path: '/', icon: Home, label: '首页' },
     { path: '/market', icon: TrendingUp, label: '市场' },
     { path: '/trade', icon: ArrowLeftRight, label: '交易' },
     { path: '/discover', icon: Compass, label: '探索' },
